@@ -1,0 +1,14 @@
+# mentor-board-template
+
+# Sensitive files
+.env
+*.credentials
+
+# Evaluation sheets (personal data)
+evaluation/*.csv
+evaluation/**/*.csv
+evaluation/**/*.xlsx
+
+# Claude Code local settings
+.claude/settings.local.json
+.claude/projects/
